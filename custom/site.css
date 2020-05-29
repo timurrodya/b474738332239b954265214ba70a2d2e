@@ -1,0 +1,328 @@
+.dashboard-body {
+    background-image: url('../dash-assets/bg.jpg');
+}
+.book-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.book-img{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+.book {
+    position: relative;
+}
+.avatar-big {
+    position: absolute;
+    width: 338px;
+    left: 14%;
+    top: 10%;
+    text-align: center;
+}
+.ribbon-text {
+    background-image: url('../dash-assets/ribbon.png');
+    width: 338px;
+    height: 67px;
+    position: absolute;
+    margin-top: -30px;
+    font-size: 21.963px;
+    font-family: "Myriad Pro";
+    color: rgba(1, 1, 1, 0.702);
+    padding-top: 10px;
+}
+.level-block {
+    position: absolute;
+    top: 46%;
+    left: 9%;
+    text-align: center;
+}
+.ribbon-small-text {
+    background-image: url('../dash-assets/small-ribbon.png');
+    width: 168px;
+    height: 33px;
+    position: absolute;
+    margin-top: -10px;
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgba(1, 1, 1, 0.702);
+    padding-top: 3px;
+    text-align: center;
+}
+.number-level {
+    background-image: url('../dash-assets/square-small.png');
+    width: 71px;
+    height: 76px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.level-block-left {
+    width: 168px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.level-block-right {
+    display: inline-block;
+}
+.bar-count {
+    padding-top: 25px;
+}
+.count-level {
+    font-family: "Myriad Pro";
+    color: rgba(1, 1, 1, 0.702);
+    font-size: 26px;
+}
+.balanc-block {
+    position: absolute;  
+    top: 63%;
+    left: 9%;
+    text-align: center;
+}
+.balanc-block-left {
+    width: 168px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.balanc-block-right {
+    display: inline-block;
+    width: 262px;
+    text-align: center;
+}
+.button {
+
+    background-image: url(../dash-assets/button.png);
+    width: 103px;
+    height: 38px;
+    display: block;
+}
+a.button.buy:before {
+    content: ' ';
+    background-image: url(../dash-assets/je-small.png);
+    width: 24px;
+    height: 19px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    left:0;
+    top: 0;
+}
+a.button  {
+    font-family: "Myriad Pro";
+    color: rgb(240, 203, 147);
+    font-size: 12px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+a.button:hover {
+    opacity: 0.8;
+}
+.chest-block {
+    background-image: url(../dash-assets/square.png);
+    width: 98px;
+    height:105px;
+    text-align: center;
+    padding-top: 17px;
+    position: absolute;
+    top: 8%;
+    left: 68%;
+}
+.chest-block:hover {
+    opacity: 0.8; 
+}
+.frame-block
+{
+    background-image: url(../dash-assets/frame.png);
+    width: 284px;
+    height:362px;
+    text-align: center;
+    position: absolute;
+    top: 23%;
+    left: 60%;
+}
+.frame-block img {
+    height: 424px;
+    margin-top: -50px;
+    margin-left: -45px;
+}
+.square-small {
+    position: absolute;
+}
+.square-item {
+    background-image: url(../dash-assets/square-small.png);
+    width: 71px;
+    height: 76px;
+    padding-top: 2px;
+    padding-top: 12px;
+    padding-left: 11px;
+
+}
+.square-left{
+    left: 53%;
+}
+.square-right{
+    left: 85%;
+}
+.square-one{
+    top: 22.5%;
+}
+.square-two{
+    top: 32.5%;
+}
+.square-three{
+    top: 42.5%;
+}
+.square-four{
+    top: 52.5%;
+}
+.square-five{
+    top: 62.5%;
+}
+.square-bottom {
+    top: 73.5%;
+}
+.square-bottom-one {
+    left: 56.5%;
+}
+.square-bottom-two{
+    left: 62.5%;
+}
+.square-bottom-three{
+    left: 68.5%;
+}
+.square-bottom-four{
+    left: 74.5%;
+}
+.square-bottom-five{
+    left: 80.5%;
+}
+img.gray {
+    filter: grayscale(100%);
+}
+.yarlik {
+    background-image: url(../dash-assets/mrk.png);
+    position: absolute;
+    width: 112px;
+    height: 75px;
+    text-align: center;
+}
+.yarlik-shmot {
+    top: 88.5%;
+    left: 57%;
+    padding-top: 5px;
+}
+.yarlik-sert {
+
+    top: 88.5%;
+    left: 66%;
+    padding-top: 5px;
+}
+.bg_bar {
+    background-image: url(../dash-assets/bg_bar.png);
+    width: 262px;
+    height:30px;
+    text-align: left;
+}
+.fill_bar {
+    background-image: url(../dash-assets/fill_bar.png);
+    margin-left: 4px;
+    margin-top: 3.5px;
+    height:23px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 23px;
+    -webkit-animation: progress_bar 8s linear infinite;
+    -moz-animation: progress_bar 8s linear infinite;
+    -ms-animation: progress_bar 8s linear infinite;
+    -o-animation: progress_bar 8s linear infinite;
+    animation: progress_bar 8s linear infinite;      
+}
+
+@-webkit-keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 248px 0;
+    }
+}
+@-moz-keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 248px 0;
+    }
+}
+@keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 248px 0;
+    }
+}
+.square-item img {
+    max-width: 51px;
+}
+.message {
+     background-image: url(../dash-assets/message.jpg);
+     width: 889px;
+    height:570px;
+    text-align: center;
+    display:none;
+}
+.message h1 {
+    color:#b6a17c;
+    font-size:78px;
+}
+button:focus {
+    outline: 1px dotted;
+    outline: none;
+}
+.square-big {
+    background-image: url(../dash-assets/square.png);
+    width: 98px;
+    height:105px;
+    text-align: center;
+    padding-top: 17px;
+   
+}
+.message  .square-big
+{
+    margin: 0 auto;
+}
+.button-big {
+   
+    background-image: url(../dash-assets/button-big.png);
+       width: 161px;
+    height: 59px;
+    display: block;
+    font-family: "Myriad Pro";
+    color: rgb(240, 203, 147);
+    font-size: 34px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 20px;
+
+}
+a.button-big:hover {
+    opacity:0.6;
+    color: rgb(240, 203, 147);
+    text-decoration: none;
+}
+.level-block .number-level img {
+    height: 40px;
+}
+.chest-block a
+{
+    display:block;
+}
