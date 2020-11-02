@@ -133,7 +133,7 @@
         }
         function onDeviceReady() {
             var basePath = window.location.href.replace('index.html', '');
-            var inAppBrowserRef = cordova.InAppBrowser.open('http://babybrain.landingdv.ru/dashboard.html', '_blank', 'location=no,toolbar=no,zoom=no,clearcache=no,clearsessioncache=no');
+            var inAppBrowserRef = cordova.InAppBrowser.open('http://babybrain.ru/user/dashboard', '_blank', 'location=no,toolbar=no,zoom=no,clearcache=no,clearsessioncache=no');
             inAppBrowserRef.addEventListener('exit', exitCallBack);
             inAppBrowserRef.addEventListener('loadstop', function() {
                 inAppBrowserRef.insertCSS({file: basePath + 'custom/site.css'});
